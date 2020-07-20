@@ -53,7 +53,6 @@ systemd-python==234
 toml==0.10.1
 Twisted==17.9.0
 typed-ast==1.4.1
-ufw==0.36
 unattended-upgrades==0.1
 urllib3==1.25.9
 wrapt==1.12.1
