@@ -27,6 +27,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', '')
 DEBUG = False
 
 ALLOWED_HOSTS = [
+    'infinite-tundra-95548.herokuapp.com/admin',
     'localhost'
 ]
 
