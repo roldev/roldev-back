@@ -27,13 +27,14 @@ SECRET_KEY = os.getenv('SECRET_KEY', '')
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'infinite-tundra-95548.herokuapp.com',
+    'www.roldev.cc',
     'localhost'
 ]
 
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
-       'http://localhost:3000',
+    'http://www.roldev.cc',
+    'http://localhost:3000',
 )
 
 # Application definition
