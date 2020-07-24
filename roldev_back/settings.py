@@ -34,6 +34,7 @@ ALLOWED_HOSTS = [
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
     'http://www.roldev.cc',
+    'https://www.roldev.cc',
     'http://localhost:3000',
 )
 
