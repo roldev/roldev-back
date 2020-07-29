@@ -7,6 +7,6 @@ def keep_alive(request):
     return HttpResponse()
 
 urlpatterns = [
-    path('', include('leads.urls')),
     path('keep-alive/', keep_alive),
+    path('', include('leads.urls')),
 ]
