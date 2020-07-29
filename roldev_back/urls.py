@@ -8,5 +8,5 @@ def keep_alive(request):
 
 urlpatterns = [
     path('', include('leads.urls')),
-    path('keep-alive', keep_alive),
+    path('keep-alive/', keep_alive),
 ]
